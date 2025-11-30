@@ -1,0 +1,4 @@
+(executable
+ (public_name aoc-2026)
+ (name main)
+ (libraries aoc_2026))
