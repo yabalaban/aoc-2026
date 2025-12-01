@@ -34,3 +34,7 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# filter out inputs 
+input/
+.DS_Store

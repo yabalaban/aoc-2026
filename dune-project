@@ -5,22 +5,18 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github yabalaban/aoc-2026))
 
-(authors "Author Name <author@example.com>")
+(authors "Alexander Balaban <drop-me-a-message@gmail.com>")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
-
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(maintainers "Alexander Balaban <drop-me-a-message@gmail.com>")
 
 (package
  (name aoc-2026)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Advent of Code – 2026")
+ (description "Bold attempt to finish AoC with Ocaml")
  (depends ocaml)
  (tags
-  ("add topics" "to describe" your project)))
+  ("adventofcode" "beginner")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
