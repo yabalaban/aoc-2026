@@ -39,14 +39,6 @@ let solve_first (file: string) : int =
      List.init (ulen - llen + 1) (fun x -> x + llen) |> List.filter (fun x -> x mod 2 == 0) |> List.map (fun x -> (x / 2, 2)) in
   solve (invalid_ids lens) file;;
 
-let print_list print_elem lst =
-  print_string "[";
-  lst |> List.iteri (fun i x ->
-    if i > 0 then print_string "; ";
-    print_elem x
-  );
-  print_string "]"
-
 let solve_second (file: string) : int = 
   let divisors n =
     let rec aux i acc =
