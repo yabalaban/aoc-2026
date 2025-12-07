@@ -3,5 +3,6 @@
 (* let () = print_endline ( string_of_int(Aoc_2026.Day3_lobby.solve_second Sys.argv.(1))) *)
 (* let () = print_endline ( string_of_int(Aoc_2026.Day4_printing_department.solve_second Sys.argv.(1))) *)
 (* let () = print_endline ( string_of_int(Aoc_2026.Day5_cafeteria.solve_second Sys.argv.(1))) *)
-let () = print_endline ( string_of_int(Aoc_2026.Day6_trash_compaction.solve_second Sys.argv.(1)))
+(* let () = print_endline ( string_of_int(Aoc_2026.Day6_trash_compaction.solve_second Sys.argv.(1))) *)
+let () = print_endline ( string_of_int(Aoc_2026.Day7_laboratories.solve_first Sys.argv.(1)))
 
